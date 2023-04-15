@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>FormWizard_v8</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="colorlib.com">
+
+    <link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.css">
+    <link rel="stylesheet" href="vendor/date-picker/css/datepicker.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="./images/logo.png" style="width:100px; display: block; " alt="">
+        </div>
+        <h2 style="text-align:center; margin-top: 10px;">استماره تسجيل عضويه</h2>
+    </header>
+
+    <div class="container">
+        <div class="wrapper">
+
+            <form action="" id="wizard">
+                <!-- SECTION 1 -->
+                <h4></h4>
+                <section>
+                    <h3>المعلومات الشخصيه</h3>
+                    <div class="form-row">
+                        <div class="form-holder">
+                            <input type="text" class="form-control img-input" onfocus="(this.type='file')"
+                                placeholder="اضغط لرفع صورتك الشخصيه">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-holder">
+                            <i class="zmdi zmdi-account"></i>
+                            <input type="text" class="form-control" placeholder="ادخل الاسم الاول ">
+                        </div>
+                        <div class="form-holder">
+                            <i class="zmdi zmdi-account"></i>
+                            <input type="text" class="form-control" placeholder="ادخل الاسم الثاني">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-holder">
+                            <i class="zmdi zmdi-email"></i>
+                            <input type="text" class="form-control" placeholder="ادخل الايميل">
+                        </div>
+                        <div class="form-holder">
+                            <i class="zmdi zmdi-account-box-o"></i>
+                            <input type="text" class="form-control" placeholder="ادحل رقم الهاتف ">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-holder">
+
+                            <input type="text" class="form-control" placeholder="تاريخ الميلاد"
+                                onfocus="(this.type = 'date')">
+                        </div>
+                        <div class="form-holder password">
+                            <select class="status" required style="width:100%">
+                                <option disabled selected> اضغط لتحديد النوع</option>
+                                <option>ذكر</option>
+                                <option>أنثي</option>
+                                <option>اخرئ</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-holder">
+                            <select class="status" required>
+                                <option disabled selected class="zmdi zmdi-long-arrow-down"> اضغط لتحديد الحاله
+                                    الاجتماعيه
+                                </option>
+                                <option>اعزب </option>
+                                <option>متزوج</option>
+                                <option>مطلق</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-holder">
+
+                                <input type="number" class="form-control" placeholder="عدد الزوجات">
+                            </div>
+                            <div class="form-holder">
+
+                                <input type="number" class="form-control" placeholder="عدد الاولاد">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-holder">
+
+                            <input type="text" class="form-control" style="color:#000" value="جواز السفر" disabled>
+                        </div>
+
+                        <div class="form-holder">
+                            <input type="text" class="form-control" placeholder="ادخل رقم جواز السفر ">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-holder">
+
+                            <input type="text" class="form-control" style="color:#000" value="الرقم الوطني" disabled>
+                        </div>
+
+                        <div class="form-holder">
+                            <input type="text" class="form-control" placeholder=" ادخل الرقم الوطني ">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SECTION 2 -->
+                <h4></h4>
+                <section>
+                    <h3>العنوان</h3>
+                    <div class="form-row">
+                        <div class="form-holder">
+                            <input type="text" class="form-control" placeholder="محل الاقامه الحالي">
+                            <i class="zmdi zmdi-pin"></i>
+                        </div>
+
+                        <div class="form-holder">
+                            <input type="text" class="form-control" placeholder="الولايه ">
+                            <i class="zmdi zmdi-pin"></i>
+                        </div>
+
+
+                        <div class="form-holder">
+                            <input type="text" class="form-control" placeholder="المحليه">
+                            <i class="zmdi zmdi-pin"></i>
+                        </div>
+
+                    </div>
+                    <div class="form-row">
+                        <div class="form-holder">
+                            <input type="text" class="form-control" placeholder="الموطن الاصلي">
+                            <i class="zmdi zmdi-pin"></i>
+                        </div>
+
+                        <div class="form-holder">
+                            <input type="text" class="form-control" placeholder="الولايه ">
+                            <i class="zmdi zmdi-pin"></i>
+                        </div>
+
+
+                        <div class="form-holder">
+                            <input type="text" class="form-control" placeholder="المحليه ">
+                            <i class="zmdi zmdi-pin"></i>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-holder w-100">
+                            <select class="status" required style="width:100%; height: 100%;">
+                                <option disabled selected>اختار نوع المنزل</option>
+                                <option>ملك خاص </option>
+                                <option>ايجار </option>
+                                <option>منزل الاسره</option>
+                            </select>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SECTION 3 -->
+                <h4></h4>
+                <section>
+                    <h3 style="margin-bottom: 16px;">التعليم و الهويات</h3>
+
+                    <div class="form-row">
+                        <div class="form-holder">
+                            <input type="text" class="form-control" style="color:#000" placeholder="اسم المدرسه">
+                        </div>
+
+                        <div class="form-holder">
+                            <input type="text" class="form-control" placeholder="الولايه ">
+                        </div>
+
+                        <div class="form-holder">
+                            <input type="text" class="form-control" placeholder="سنه التخرج "
+                                onfocus="(this.type = 'date')">
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-holder">
+                            <input type="text" class="form-control" style="color:#000" placeholder="اسم الجامعه">
+                        </div>
+
+                        <div class="form-holder">
+                            <input type="text" class="form-control" placeholder="التخصص الجامعي ">
+                        </div>
+
+                        <div class="form-holder">
+                            <input type="text" class="form-control" placeholder="سنه التخرج "
+                                onfocus="(this.type = 'date')">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-holder">
+                            <input type="text" class="form-control" placeholder=" اضغط لرفع الشهاده الجامعيه"
+                                onfocus="(this.type = 'file')">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <textarea name="" placeholder="تحدث عن ابرز اهتماماتك" id="" cols="100" rows="5"></textarea>
+                    </div>
+
+                    <div class="form-row">
+                        <textarea name="" placeholder="تحدث عن انجازاتك" id="" cols="100" rows="5"></textarea>
+                    </div>
+
+                </section>
+
+                <!-- SECTION 4 -->
+                <h4></h4>
+                <section>
+                    <h3>اعمالك السابقه وخبراتك</h3>
+
+                    <div class="form-row">
+                        <div class="form-holder">
+                            <input type="text" class="form-control" style="color:#000" placeholder="اسم الموسسه">
+                        </div>
+
+                        <div class="form-holder">
+                            <input type="text" class="form-control" placeholder="مده العمل">
+                        </div>
+
+                        <div class=" form-holder">
+                            <input type="text" class="form-control" placeholder="اسم الوظيفه ">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-holder">
+                            <input type="text" class="form-control" style="color:#000" placeholder="اسم الموسسه">
+                        </div>
+
+                        <div class="form-holder">
+                            <input type="text" class="form-control" placeholder="مده العمل">
+                        </div>
+
+                        <div class=" form-holder">
+                            <input type="text" class="form-control" placeholder="اسم الوظيفه ">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-holder">
+                            <input type="text" class="form-control" style="color:#000"
+                                placeholder="مجال الخبرة العملية">
+                        </div>
+
+                        <div class="form-holder">
+                            <input type="text" class="form-control" placeholder="مجال التدريب">
+                        </div>
+
+                        <div class=" form-holder">
+                            <input type="text" class="form-control" placeholder="مده الخبره">
+                        </div>
+                    </div>
+
+
+                    <div class="form-row">
+                        <div class="form-holder">
+                            <input type="text" class="form-control" style="color:#000"
+                                placeholder="اسم الموسسه التي تعمل فيها ">
+                        </div>
+
+                        <div class="form-holder">
+                            <input type="text" class="form-control" placeholder="اسم الوظيفه ">
+                        </div>
+
+                        <div class="form-holder">
+                            <input type="text" class="form-control" placeholder="تاريخ الالتحاق بالوظيفه"
+                                onfocus="(this.type = 'date')">
+                        </div>
+
+                </section>
+            </form>
+        </div>
+    </div>
+
+    <footer style="background-color: #1A1613;">
+
+        <div class="pt-4 pb-3 position-relative" style="position: relative; padding: 10px ;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-5">
+                        <p class="" style="text-align: center;" data-lang="copy-write">
+                            <span style="color:red">ICS</span> &copy; 2023 All Right Reserved
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <script src="./js/sweet-alert.js"></script>
+    <script src="js/jquery.steps.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
