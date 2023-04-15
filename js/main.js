@@ -13,9 +13,9 @@ $(function () {
 
         onStepChanging: function (event, currentIndex, newIndex) {
             if (newIndex >= 1) {
-                $('.steps ul li:first-child a img').attr('src', 'images/personWithNoColor.png');
-            } else {
                 $('.steps ul li:first-child a img').attr('src', 'images/person.png');
+            } else {
+                $('.steps ul li:first-child a img').attr('src', 'images/personWithNoColor.png');
             }
 
             if (newIndex === 1) {
@@ -25,9 +25,9 @@ $(function () {
             }
 
             if (newIndex === 2) {
-                $('.steps ul li:nth-child(3) a img').attr('src', 'images/Education.png');
-            } else {
                 $('.steps ul li:nth-child(3) a img').attr('src', 'images/EducationwithNoColor.png');
+            } else {
+                $('.steps ul li:nth-child(3) a img').attr('src', 'images/Education.png');
             }
 
             if (newIndex === 3) {
