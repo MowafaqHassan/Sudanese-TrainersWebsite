@@ -25,7 +25,7 @@ $(function () {
             }
 
             if (newIndex === 2) {
-                $('.steps ul li:nth-child(3) a img').attr('src', './images/EducationwithNoColor.png');
+                $('.steps ul li:nth-child(3) a img').attr('src', 'images/EducationWithNoColor.png');
             } else {
                 $('.steps ul li:nth-child(3) a img').attr('src', './images/Education.png');
             }
@@ -44,7 +44,7 @@ $(function () {
     // Create Steps Image
     $('.steps ul li:first-child').append('<img src="images/step-arrow.png" alt="" class="step-arrow">').find('a').append('<img src="images/person.png" alt="Personal Information"> ').append('<span class="step-order">Step 01</span>');
     $('.steps ul li:nth-child(2').append('<img src="images/step-arrow.png" alt="" class="step-arrow">').find('a').append('<img src="images/AddressWithNoColor.png" alt="">').append('<span class="step-order">Step 02</span>');
-    $('.steps ul li:nth-child(3)').append('<img src="images/step-arrow.png" alt="" class="step-arrow">').find('a').append('<img src="./images/EducationwithNoColor.png" alt="">').append('<span class="step-order">Step 03</span>');
+    $('.steps ul li:nth-child(3)').append('<img src="images/step-arrow.png" alt="" class="step-arrow">').find('a').append('<img src="images/EducationWithNoColor.png" alt="">').append('<span class="step-order">Step 03</span>');
     $('.steps ul li:last-child a').append('<img src="images/jobWithNoColor.png" alt="">').append('<span class="step-order">Step 04</span>');
     // Count input 
 })
