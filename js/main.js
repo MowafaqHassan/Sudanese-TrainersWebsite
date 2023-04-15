@@ -25,9 +25,9 @@ $(function () {
             }
 
             if (newIndex === 2) {
-                $('.steps ul li:nth-child(3) a img').attr('src', 'images/EducationWithNoColor.png');
+                $('.steps ul li:nth-child(3) a img').attr('src', 'images/Education.png');
             } else {
-                $('.steps ul li:nth-child(3) a img').attr('src', './images/Education.png');
+                $('.steps ul li:nth-child(3) a img').attr('src', './images/EducationWithNoColor.png');
             }
 
             if (newIndex === 3) {
