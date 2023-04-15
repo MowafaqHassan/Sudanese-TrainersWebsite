@@ -15,7 +15,7 @@ $(function () {
             if (newIndex >= 1) {
                 $('.steps ul li:first-child a img').attr('src', 'images/person.png');
             } else {
-                $('.steps ul li:first-child a img').attr('src', 'images/personWithNoColor.png');
+                $('.steps ul li:first-child a img').attr('src', 'images/personwithNoColor.png');
             }
 
             if (newIndex === 1) {
